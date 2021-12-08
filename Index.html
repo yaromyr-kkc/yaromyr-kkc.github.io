@@ -1,0 +1,182 @@
+<html>
+    <style>
+        a:hover{
+            cursor: default;
+        }
+        h1:hover{
+            cursor: default;
+        }
+        .notes{
+            alt: "//background-color: #5F6E7B";
+            alt: "//border: 5px solid #00315B";
+        }
+        .dark_mode{
+            background-color: #00315B;
+            background-image: url('https://www.pngkit.com/png/full/24-240879_overlay-transparent-hexagon-hex.png');
+        }
+        .light_mode{
+            background-color: #A9D7FF;
+            background-image: url('https://www.pngkit.com/png/full/24-240879_overlay-transparent-hexagon-hex.png');
+        }
+        .center_text{
+            text-align: center;
+            margin: auto;
+            align-self: auto;
+        }
+        .top_line{
+            text-align: center;
+        }
+        .top_line_button{
+            border: outset 10px #818181;
+            background-color: #818181;
+            font-size: 30px;
+            transition: all .3s;
+            font-family: "Lucida Console", "Courier New", monospace;
+            cursor: pointer;
+        }
+        .top_line_button:hover{
+            background-color: #757575;
+            border: outset 10px #757575;
+        }
+        .top_line_button:active{
+            border: inset 10px #5e5e5e;
+            background-color: #5e5e5e;
+        }
+        .footer{
+            position: relative;
+            bottom: 0px;
+            background-color: black;
+            text-align: center;
+            font-family: "Lucida Console", "Courier New", monospace;
+            border-radius: 8px;
+        }
+        .footer_text{
+            color: white;
+        }
+        .txt_container{
+            background-color: #757575;
+            text-align: center;
+            border-radius: 8px;
+            border: ridge 10px;
+            width: 200px;
+            font-family: "Lucida Console", "Courier New", monospace;
+            margin: auto;
+        }
+        .welkome_text{
+            font-size: 100px;
+            text-align: center;
+            text-shadow: 2px 2px #3d3d3d;
+            font-family: "Lucida Console", "Courier New", monospace;
+        }
+        .secret_button{
+            position: fixed;
+            right: 3px;
+            bottom: 3px;
+            border: none;
+            background-color: transparent;
+        }
+    </style>
+
+    <head>
+        <title>Yaro</title>
+
+        <link rel="icon" href="" type="image/x-icon" id="title_icon">
+    </head>
+
+    <body id="body" class="dark_mode">
+        <div class="top_line">
+            <button class="top_line_button">Over mij</button>
+            <button class="top_line_button">Projecten</button>
+            <button class="top_line_button">Home</button>
+        </div>
+        <br>
+        <div class="center_text">
+            <a class="welkome_text">Welkom!</a>
+            <div class="txt_container">
+                <a style="color: white; font-size: 40px;"> Updates: </a>
+                <br>
+                <a style="color: white;">niks</a>
+            </div>
+            <div class="txt_container">
+                <a style="color: white; font-size: 40px;"> Updates: </a>
+                <br>
+                <a style="color: white;">niks</a>
+            </div>
+        </div>
+
+        <button class="secret_button" onclick="add_count()" id="secret_button">‎</button>
+
+        <a style="position: fixed; left: 1px; bottom: 1px; color: white; background-color: black;" onpointerover="hide_V()" id="version_txt">v: 0.0.2</a>
+
+        <div style="height: 1000px;"></div>
+
+        <div id="footer" class="footer">
+            <br>
+            <a class="footer_text">Mijn (school)e-mail: 8758@leerling.keizerkarelcollege.nl.</p>
+            <a class="footer_text">deze site is gemaakt met HTML.</p>
+            <br>
+        </div>
+
+        <script>setTimeout(function(){alert("Let op!, aan deze site wordt nog gewerkt")}, 500)</script>
+        <script>function hide_V(){document.getElementById("version_txt").style = "visibility: hidden;"}</script>
+    </body>
+
+    <script>
+        var ic1 = "https://img.icons8.com/stickers/2x/windows-10.png";
+        var ic2 = "https://img.icons8.com/stickers/2x/mac-os.png";
+        var ic3 = "https://img.icons8.com/stickers/2x/google-logo.png";
+        var ic4 = "https://img.icons8.com/stickers/2x/youtube.png";
+        var ic5 = "https://img.icons8.com/stickers/2x/airport.png";
+        var ic6 = "https://img.icons8.com/stickers/2x/america.png";
+        var icc = 1;
+
+        var inhtml = document.innerHTML
+        var count = 0;
+        function add_count() {
+            count += 1;
+            document.getElementById("secret_button").innerHTML = count;
+            if(count == 1000) {
+                alert(inhtml)
+            }
+        }
+
+        function switch_icon(icon) {
+            document.getElementById("title_icon").href = icon;
+        }
+
+        function next_ic() {
+            icc += 1
+            if(icc > 6){
+                icc = 1;
+            }
+            if(icc == 1) {
+                switch_icon(ic1);
+            }
+            if(icc == 2) {
+                switch_icon(ic2);
+            }
+            if(icc == 3) {
+                switch_icon(ic3);
+            }
+            if(icc == 4) {
+                switch_icon(ic4);
+            }
+            if(icc == 5) {
+                switch_icon(ic5);
+            }
+            if(icc == 6) {
+                switch_icon(ic6);
+            }
+        }
+
+        function lp1(){
+            lp2();
+        }
+
+        function lp2(){
+            next_ic();
+            setTimeout(lp1, 500);
+        }
+        lp1();
+    </script>
+</html>
