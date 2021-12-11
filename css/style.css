@@ -1,0 +1,75 @@
+a:hover{
+    cursor: default;
+}
+h1:hover{
+    cursor: default;
+}
+.notes{
+    alt: "//background-color: #5F6E7B";
+    alt: "//border: 5px solid #00315B";
+}
+.dark_mode{
+    background-color: #00315B;
+    background-image: url('https://www.pngkit.com/png/full/24-240879_overlay-transparent-hexagon-hex.png');
+}
+.light_mode{
+    background-color: #A9D7FF;
+    background-image: url('https://www.pngkit.com/png/full/24-240879_overlay-transparent-hexagon-hex.png');
+}
+.center_text{
+    text-align: center;
+    margin: auto;
+    align-self: auto;
+}
+.top_line{
+    text-align: center;
+}
+.top_line_button{
+    border: outset 10px #818181;
+    background-color: #818181;
+    font-size: 30px;
+    transition: all .3s;
+    font-family: "Lucida Console", "Courier New", monospace;
+    cursor: pointer;
+}
+.top_line_button:hover{
+    background-color: #757575;
+    border: outset 10px #757575;
+}
+.top_line_button:active{
+    border: inset 10px #5e5e5e;
+    background-color: #5e5e5e;
+}
+.footer{
+    position: relative;
+    bottom: 0px;
+    background-color: black;
+    text-align: center;
+    font-family: "Lucida Console", "Courier New", monospace;
+    border-radius: 8px;
+}
+.footer_text{
+    color: white;
+}
+.txt_container{
+    background-color: #757575;
+    text-align: center;
+    border-radius: 8px;
+    border: ridge 10px;
+    width: 200px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    margin: auto;
+}
+.welkome_text{
+    font-size: 100px;
+    text-align: center;
+    text-shadow: 2px 2px #3d3d3d;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+.secret_button{
+    position: fixed;
+    right: 3px;
+    bottom: 3px;
+    border: none;
+    background-color: transparent;
+}
