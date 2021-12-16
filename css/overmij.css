@@ -57,12 +57,16 @@ h1:hover{
     border-radius: 8px;
     border: ridge 10px;
     width: 200px;
-    font-family: "Lucida Console", "Courier New", monospace;
     margin: auto;
 }
 .overmij_text{
     font-size: 100px;
     text-align: center;
     text-shadow: 2px 2px #3d3d3d;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+.main_text{
+    font-size: 12px;
+    text-align: center;
     font-family: "Lucida Console", "Courier New", monospace;
 }
