@@ -117,6 +117,7 @@ h1:hover{
     animation-name: rainbow;
     animation-duration: 20s;
     animation-iteration-count: infinite;
+    background-image: url('https://www.pngkit.com/png/full/24-240879_overlay-transparent-hexagon-hex.png');
 }
 
 @keyframes rainbow{
