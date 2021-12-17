@@ -94,3 +94,12 @@ h1:hover{
     font-family: "Lucida Console", "Courier New", monospace;
     color: blue;
 }
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
