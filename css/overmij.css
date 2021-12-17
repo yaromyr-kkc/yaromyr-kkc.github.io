@@ -103,3 +103,10 @@ h1:hover{
         opacity: 1;
      }
 }
+
+.secret_door{
+    position: fixed; right: 1px;
+    bottom: 1px; width: 50px;
+    height: 54px;
+    animation: ease-in 3s;
+}
