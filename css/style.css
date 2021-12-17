@@ -74,3 +74,36 @@ h1:hover{
     background-color: transparent;
 }
 
+.rainbow {
+    background-color: red;
+    animation-name: color;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes color{
+    0% {
+        background-color: rgb(255, 0, 0);
+    }
+    14% {
+        background-color: yellow;
+    }
+    28% {
+        background-color: rgb(0, 255, 0);
+    }
+    43% {
+        background-color: rgb(0, 255, 255);
+    }
+    57% {
+        background-color: rgb(0, 68, 255);
+    }
+    71% {
+        background-color: rgb(157, 10, 255);
+    }
+    85% {
+        background-color: rgb(255, 10, 112);
+    }
+    100% {
+        background-color: rgb(255, 0, 0);
+    }
+}
