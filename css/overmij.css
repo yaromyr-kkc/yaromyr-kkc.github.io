@@ -56,9 +56,9 @@ h1:hover{
     text-align: center;
     border-radius: 8px;
     border: ridge 10px;
-    width: 200px;
     font-family: "Lucida Console", "Courier New", monospace;
     margin: auto;
+    width: 800px;
 }
 .welkome_text{
     font-size: 100px;
