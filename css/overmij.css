@@ -52,6 +52,7 @@ h1:hover{
     color: white;
 }
 .txt_container{
+    position: relative;
     background-color: #757575;
     text-align: center;
     border-radius: 8px;
@@ -60,17 +61,20 @@ h1:hover{
     margin: auto;
 }
 .overmij_text{
+    position: relative;
     font-size: 100px;
     text-align: center;
     text-shadow: 2px 2px #3d3d3d;
     font-family: "Lucida Console", "Courier New", monospace;
 }
 .main_text{
+    position: relative;
     font-size: 20px;
     text-align: center;
     font-family: "Lucida Console", "Courier New", monospace;
 }
 .main_text_blue{
+    position: relative;
     font-size: 20px;
     text-align: center;
     font-family: "Lucida Console", "Courier New", monospace;
