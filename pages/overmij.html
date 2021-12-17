@@ -37,8 +37,8 @@
             <br>
         </div>
         <script>function hide_V(){document.getElementById("version_txt").style = "visibility: hidden;"}</script>
-        <img src="/assets/secret_door.png" style="position: fixed; right: 1px; bottom: 1px; width: 50px; height: 54px; visibility: hidden;" id="secret_door">
-        <script>setTimeout(function(){document.getElementById("secret_door").style.visibility = "visible"}, 1)</script>
+        <img src="/assets/secret_door.png" style="position: fixed; right: 1px; bottom: 1px; width: 50px; height: 54px; visibility: hidden; transition: all 1s;" id="secret_door">
+        <script>setTimeout(function(){document.getElementById("secret_door").style.visibility = "visible"}, 1000)</script>
     </body>
 
     <script>
