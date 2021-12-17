@@ -112,7 +112,7 @@ h1:hover{
     animation-duration: 3s;
 }
 
-.rainbow_mode {
+.rainbow_mode{
     background-color: red;
     animation-name: rainbow;
     animation-duration: 20s;
