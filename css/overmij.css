@@ -81,7 +81,7 @@ h1:hover{
     color: blue;
 }
 .secrert_door{
-    position: absolute;
+    position: fixed;
     right: 5px;
     bottom: 5px;
 }
