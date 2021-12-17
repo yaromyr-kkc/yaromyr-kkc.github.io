@@ -80,3 +80,8 @@ h1:hover{
     font-family: "Lucida Console", "Courier New", monospace;
     color: blue;
 }
+.secrert_door{
+    position: relative;
+    right: 5px;
+    top: 5px;
+}
