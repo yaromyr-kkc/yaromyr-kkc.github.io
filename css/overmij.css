@@ -85,6 +85,7 @@ h1:hover{
     font-size: 20px;
     text-align: center;
     font-family: "Lucida Console", "Courier New", monospace;
+    width: 800px;
 }
 .main_text_blue{
     position: relative;
