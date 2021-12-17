@@ -74,14 +74,7 @@ h1:hover{
     background-color: transparent;
 }
 
-.rainbow {
-    background-color: red;
-    animation-name: color;
-    animation-duration: 20s;
-    animation-iteration-count: infinite;
-}
-
-@keyframes color{
+@keyframes rainbow{
     0% {
         background-color: rgb(255, 0, 0);
     }
@@ -106,4 +99,12 @@ h1:hover{
     100% {
         background-color: rgb(255, 0, 0);
     }
+}
+
+.rainbow_mode {
+    background-color: red;
+    animation-name: rainbow;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    background-image: url('https://www.pngkit.com/png/full/24-240879_overlay-transparent-hexagon-hex.png');
 }
