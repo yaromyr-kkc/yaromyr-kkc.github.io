@@ -108,5 +108,5 @@ h1:hover{
     position: fixed; right: 1px;
     bottom: 1px; width: 50px;
     height: 54px;
-    animation: ease-in 3s;
+    animation: fadeInAnimation ease 3s;
 }
