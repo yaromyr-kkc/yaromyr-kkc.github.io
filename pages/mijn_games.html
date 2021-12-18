@@ -1,29 +1,32 @@
 <html>
     <head>
-        <title>Yaro</title>
+        <title>Over mij</title>
         <script src="/javascript/change_icon.js"></script>
-        <link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="/css/overmij.css" media="screen">
         <link rel="icon" href="" type="image/x-icon" id="title_icon">
     </head>
 
     <body id="body" class="dark_mode">
         <div class="top_line">
-            <button class="top_line_button" onclick="location.href='/pages/mijn_games.html'">Mijn Games</button>
+            <button class="top_line_button" onclick="alert('je bent al bij Mijn Games')">Mijn Games</button>
             <button class="top_line_button" onclick="location.href='/overmij.html'">Over mij</button>
-            <button class="top_line_button" onclick="location.href='/pages/projecten.html'">Projecten</button>
-            <button class="top_line_button" onclick="alert('je bent al bij Home')">Home</button>
+            <button class="top_line_button" onclick="location.href='https://yaromyr-kkc.github.io/pages/projecten.html'">Projecten</button>
+            <button class="top_line_button" onclick="location.href='https://yaromyr-kkc.github.io'">Home</button>
         </div>
         <br>
         <div class="center_text">
-            <a class="welkome_text">Welkom!</a>
+            <a class="overmij_text">Over mij</a>
             <div class="txt_container">
-                <a style="color: white; font-size: 40px;"> Updates: </a>
                 <br>
-                <a style="color: white;">niks</a>
+                <a class="main_text">Ik ben </a><a class="main_text_blue">Yaro</a><a class="main_text">(12 jaar), en ik zit op het kkc</p>
+                <a class="main_text">Mijn hobby's zijn: programmeren, gamen, youtube kijken en lezen.</p>
+                <br>
+            </br>
             </div>
+            <br>
         </div>
 
-        <button class="secret_button" onclick="add_count()" id="secret_button">0</button>
+        <button class="secret_button" onclick="add_count()" id="secret_button">‎</button>
 
         <a style="position: fixed; left: 1px; bottom: 1px; color: white; background-color: black;" onpointerover="hide_V()" id="version_txt">v: 0.1.2</a>
 
@@ -35,6 +38,5 @@
             <a class="footer_text">deze site is gemaakt met HTML.</p>
             <br>
         </div>
-        <script>function hide_V(){document.getElementById("version_txt").style = "visibility: hidden;"}</script>
     </body>
 </html>
