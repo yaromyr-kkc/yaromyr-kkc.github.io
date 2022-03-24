@@ -73,6 +73,13 @@ h1:hover{
     border: none;
     background-color: transparent;
 }
+.main_text{
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    font-family: "Lucida Console", "Courier New", monospace;
+    width: 800px;
+}
 
 @keyframes rainbow{
     0% {
