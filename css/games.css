@@ -55,6 +55,7 @@ h1:hover{
     background-color: #757575;
     text-align: left;
     border-radius: 8px;
+    border-width: 5px;
     border-left: solid, rgb(54, 93, 199);
     background-color: rgba(47, 78, 165, 0.473);
     width: auto;
