@@ -59,6 +59,7 @@ h1:hover{
     background-color: rgba(47, 78, 165, 0.473);
     width: auto;
     font-family: "Lucida Console", "Courier New", monospace;
+    text-align: left;
     margin: auto;
 }
 .welkome_text{
