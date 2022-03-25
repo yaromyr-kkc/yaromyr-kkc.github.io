@@ -52,10 +52,10 @@ h1:hover{
     color: white;
 }
 .txt_container{
-    background-color: #757575;
-    text-align: left + 20px;
-    border-radius: 8px;
-    border-left: solid, rgb(54, 93, 199) 20px;
+    border-top-style: none;
+    border-right-style: solid;
+    border-bottom-style: none;
+    border-left-style: none rgb(54, 93, 199) 20px;
     background-color: rgba(47, 78, 165, 0.473);
     width: auto;
     font-family: "Lucida Console", "Courier New", monospace;
