@@ -19,7 +19,7 @@ h1:hover{
     background-color: #00315B;
     background-image: url('https://www.pngkit.com/png/full/24-240879_overlay-transparent-hexagon-hex.png');
     animation-name: moveBG;
-    animation-duration: 4s;
+    animation-duration: 40s;
     animation-iteration-count: infinite;
 }
 .light_mode{
