@@ -53,9 +53,9 @@ h1:hover{
 }
 .txt_container{
     border-top-style: none;
-    border-right-style: solid;
+    border-right-style: none;
     border-bottom-style: none;
-    border-left-style: solid rgb(54, 93, 199) 20px;
+    border-left-style: solid;
     background-color: rgba(47, 78, 165, 0.473);
     width: auto;
     font-family: "Lucida Console", "Courier New", monospace;
