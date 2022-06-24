@@ -4,6 +4,6 @@ function checkCode(value){
         location.href = "/pages/secret/rooms/secret_room.html"
     }
     else {
-        alert("Dat is de code niet.")
+        alert("")
     }
 }
