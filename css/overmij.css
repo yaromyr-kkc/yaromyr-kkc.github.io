@@ -1,11 +1,3 @@
-@keyframes moveBG {
-    0% {background-position: 0px 0px;}
-    25% {background-position: 250px 250px;}
-    50% {background-position: 0px 500px;}
-    75% {background-position: -250px 250px;}
-    100% {background-position: 0px 0px;}
-}
-
 a:hover{
     cursor: default;
 }
@@ -16,9 +8,21 @@ h1:hover{
     alt: "//background-color: #5F6E7B";
     alt: "//border: 5px solid #00315B";
 }
+
+@keyframes moveBG {
+    0% {background-position: 0px 0px;}
+    25% {background-position: 250px 250px;}
+    50% {background-position: 0px 500px;}
+    75% {background-position: -250px 250px;}
+    100% {background-position: 0px 0px;}
+}
+
 .dark_mode{
     background-color: #00315B;
     background-image: url('https://www.pngkit.com/png/full/24-240879_overlay-transparent-hexagon-hex.png');
+    animation-name: moveBG;
+    animation-duration: 40s;
+    animation-iteration-count: infinite;
 }
 .light_mode{
     background-color: #A9D7FF;
