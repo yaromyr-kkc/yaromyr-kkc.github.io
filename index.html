@@ -30,13 +30,13 @@
 
         <style>
         @keyframes activate_transition {
-        0% {opacity: 0%;}
-        100% {opacity: 100%;}
+        0% {opacity: 0;}
+        100% {opacity: 1;}
         }
 
         @keyframes start_transition {
-            0% {background-color: black;}
-            100% {background-color: white;}
+            0% {opacity: 1;}
+            100% {opacity: 0;}
         }
         
         .black_foreground {
@@ -52,11 +52,20 @@
             animation-iteration-count: 1;
         }
         </style>
-        <div style="background-color: black; width: 110%; height: 110%; position: fixed; left: -20px; top: -20px"></div>
+        <div class="black_foreground" id="foreground"></div>
+        <script>
+            function removeDiv() {
+                document.getElementById("foreground").className = "";
+            }
+            timeout = setTimeout(removeDiv, 1999)
+        </script>
     </head>
 
     <body id="body" class="dark_mode">
         <div class="top_line">
+            <script>
+                
+            </script>
             <button class="top_line_button" onclick="location.href='/pages/mijn_games.html'">Mijn Games</button>
             <button class="top_line_button" onclick="location.href='/pages/overmij.html'">Over mij</button>
             <button class="top_line_button" onclick="location.href='/pages/projecten/projecten.html'">Projecten</button>
